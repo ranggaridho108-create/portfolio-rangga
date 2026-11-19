@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rangga Mayridho Jaman – Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">RMJ<span class="dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#positions">Positions</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about" class="mobile-link">About</a>
+      <a href="#experience" class="mobile-link">Experience</a>
+      <a href="#positions" class="mobile-link">Positions</a>
+      <a href="#achievements" class="mobile-link">Achievements</a>
+      <a href="#skills" class="mobile-link">Skills</a>
+      <a href="#contact" class="mobile-link">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>Available for Collaboration
+      </div>
+      <h1 class="hero-name">
+        Rangga<br/>
+        <span class="hero-name-accent">Mayridho Jaman</span>
+      </h1>
+      <p class="hero-tagline">Student · Developer · Educator · Leader</p>
+      <p class="hero-desc">
+        Passionate about technology, education, and community leadership.<br/>
+        Building meaningful experiences through code, creativity, and collaboration.
+      </p>
+      <div class="hero-cta-group">
+        <a href="#experience" class="btn btn-primary">View Experience</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number">5+</span>
+          <span class="stat-label">Awards Won</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number">7</span>
+          <span class="stat-label">Active Roles</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number">∞</span>
+          <span class="stat-label">Passion</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="avatar-ring">
+        <div class="avatar-inner">
+          <span class="avatar-initials">RMJ</span>
+        </div>
+        <div class="orbit orbit-1"><div class="orbit-dot"></div></div>
+        <div class="orbit orbit-2"><div class="orbit-dot"></div></div>
+        <div class="orbit orbit-3"><div class="orbit-dot"></div></div>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <i class="fas fa-chevron-down"></i>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">Who I Am</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            Halo! Saya <strong>Rangga Mayridho Jaman</strong>, seorang siswa yang aktif di berbagai kegiatan akademik, teknologi, dan kepemimpinan. Saya percaya bahwa pengembangan diri terbaik datang dari kombinasi antara belajar, mengajar, dan melayani komunitas.
+          </p>
+          <p>
+            Dengan latar belakang di bidang teknologi informasi, saya telah memimpin berbagai proyek mulai dari pengembangan aplikasi, kegiatan STEM IoT, hingga menjadi jembatan komunikasi sebagai humas di berbagai organisasi.
+          </p>
+          <p>
+            Saya bersekolah di <strong>SMK/SMA Yadika 13</strong> dan aktif di berbagai organisasi ekstrakurikuler dengan peran kepemimpinan dan teknis.
+          </p>
+        </div>
+        <div class="about-cards">
+          <div class="about-card">
+            <i class="fas fa-graduation-cap"></i>
+            <h4>Education</h4>
+            <p>SMK/SMA Yadika 13</p>
+          </div>
+          <div class="about-card">
+            <i class="fas fa-code"></i>
+            <h4>Focus</h4>
+            <p>Tech & Leadership</p>
+          </div>
+          <div class="about-card">
+            <i class="fas fa-users"></i>
+            <h4>Community</h4>
+            <p>Active Contributor</p>
+          </div>
+          <div class="about-card">
+            <i class="fas fa-trophy"></i>
+            <h4>Achievements</h4>
+            <p>5+ Competitions</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section section-dark">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Experience</span>
+        <h2 class="section-title">My Journey</h2>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline-item" data-aos>
+          <div class="timeline-icon">
+            <i class="fas fa-chalkboard-teacher"></i>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-badge">Education</span>
+            <h3>Pengajar Bahasa Jepang</h3>
+            <p class="timeline-org">SMP (Mingguan / Bulanan)</p>
+            <p>Mengajar bahasa Jepang kepada siswa SMP secara rutin setiap minggu atau sebulan sekali, membantu siswa memahami budaya dan bahasa Jepang dengan metode yang menarik dan interaktif.</p>
+            <div class="timeline-tags">
+              <span>Teaching</span><span>Japanese</span><span>Education</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos>
+          <div class="timeline-icon">
+            <i class="fas fa-church"></i>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-badge">Community Service</span>
+            <h3>Teknisi Infokus Gereja</h3>
+            <p class="timeline-org">Gereja – Audio Visual Support</p>
+            <p>Membantu gereja dalam pemasangan dan pengoperasian perangkat infokus (proyektor) untuk mendukung kelancaran kegiatan ibadah dan acara gereja.</p>
+            <div class="timeline-tags">
+              <span>AV Tech</span><span>Community</span><span>Service</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos>
+          <div class="timeline-icon">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-badge">Development</span>
+            <h3>Developer – Aplikasi Absensi Sekolah</h3>
+            <p class="timeline-org">Proyek Internal Sekolah</p>
+            <p>Terlibat sebagai salah satu developer dalam pembuatan aplikasi absensi digital untuk sekolah. Aplikasi ini memudahkan pencatatan kehadiran siswa secara efisien dan terdigitalisasi.</p>
+            <div class="timeline-tags">
+              <span>App Dev</span><span>School System</span><span>Coding</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos>
+          <div class="timeline-icon">
+            <i class="fas fa-star"></i>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-badge">Competition</span>
+            <h3>Peserta Lomba Expo Yadika</h3>
+            <p class="timeline-org">Yadika Expo – Pameran Karya Siswa</p>
+            <p>Mengikuti kegiatan lomba Expo Yadika, sebuah ajang pameran dan kompetisi karya terbaik siswa yang menampilkan inovasi dan kreativitas dalam berbagai bidang.</p>
+            <div class="timeline-tags">
+              <span>Exhibition</span><span>Competition</span><span>Innovation</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos>
+          <div class="timeline-icon">
+            <i class="fas fa-pray"></i>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-badge">Event</span>
+            <h3>Panitia Qurban</h3>
+            <p class="timeline-org">SMK Yadika 13</p>
+            <p>Menjadi bagian dari panitia kegiatan qurban di SMK Yadika 13, berkontribusi dalam pelaksanaan dan koordinasi kegiatan keagamaan sekolah.</p>
+            <div class="timeline-tags">
+              <span>Event Org</span><span>Committee</span><span>Leadership</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos>
+          <div class="timeline-icon">
+            <i class="fas fa-bullhorn"></i>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-badge">PR & Communication</span>
+            <h3>Humas Setiap Acara Sekolah</h3>
+            <p class="timeline-org">Berbagai Acara Sekolah</p>
+            <p>Menjadi hubungan masyarakat (humas) di setiap acara sekolah, bertanggung jawab atas komunikasi, dokumentasi, dan representasi kegiatan kepada publik internal maupun eksternal.</p>
+            <div class="timeline-tags">
+              <span>PR</span><span>Communication</span><span>Events</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos>
+          <div class="timeline-icon">
+            <i class="fas fa-robot"></i>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-badge">Technology</span>
+            <h3>Project STEM IoT Robotik</h3>
+            <p class="timeline-org">SMA Yadika 13</p>
+            <p>Mengikuti proyek STEM berbasis IoT dan Robotik, mempelajari dan mengimplementasikan teknologi Internet of Things dalam proyek robotika nyata yang menggabungkan hardware dan software.</p>
+            <div class="timeline-tags">
+              <span>STEM</span><span>IoT</span><span>Robotics</span><span>Tech</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- POSITIONS -->
+  <section id="positions" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Current Roles</span>
+        <h2 class="section-title">Positions Held Today</h2>
+      </div>
+      <div class="positions-grid">
+
+        <div class="position-card featured" data-aos>
+          <div class="position-icon">
+            <i class="fas fa-crown"></i>
+          </div>
+          <div class="position-badge">Featured</div>
+          <h3>Ketua Eskul Multimedia</h3>
+          <p>Memimpin ekstrakurikuler multimedia sekolah, mengkoordinasikan anggota dalam kegiatan desain, videografi, dan konten kreatif digital.</p>
+          <span class="position-org">SMK/SMA Yadika 13</span>
+        </div>
+
+        <div class="position-card" data-aos>
+          <div class="position-icon">
+            <i class="fas fa-torii-gate"></i>
+          </div>
+          <h3>Humas Japanese Club</h3>
+          <p>Mengelola komunikasi dan hubungan eksternal Japanese Club, mendukung kegiatan budaya dan pembelajaran bahasa Jepang.</p>
+          <span class="position-org">Japanese Club</span>
+        </div>
+
+        <div class="position-card" data-aos>
+          <div class="position-icon">
+            <i class="fas fa-language"></i>
+          </div>
+          <h3>Humas English Club</h3>
+          <p>Bertanggung jawab atas komunikasi publik dan promosi kegiatan English Club kepada seluruh sivitas sekolah.</p>
+          <span class="position-org">English Club</span>
+        </div>
+
+        <div class="position-card" data-aos>
+          <div class="position-icon">
+            <i class="fas fa-users-cog"></i>
+          </div>
+          <h3>Humas Angkatan</h3>
+          <p>Menjadi representasi dan juru bicara angkatan, mengelola komunikasi antar siswa, guru, dan pihak sekolah.</p>
+          <span class="position-org">Angkatan 2024/2025</span>
+        </div>
+
+        <div class="position-card" data-aos>
+          <div class="position-icon">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <h3>Developer Aplikasi Absensi</h3>
+          <p>Salah satu developer inti dalam tim pengembangan aplikasi absensi digital sekolah yang masih aktif dikembangkan.</p>
+          <span class="position-org">Tim Pengembang Internal</span>
+        </div>
+
+        <div class="position-card" data-aos>
+          <div class="position-icon">
+            <i class="fas fa-shuttlecock"></i>
+          </div>
+          <h3>Anggota Badminton</h3>
+          <p>Aktif sebagai anggota klub badminton sekolah, berlatih rutin dan mengikuti pertandingan internal.</p>
+          <span class="position-org">Eskul Badminton</span>
+        </div>
+
+        <div class="position-card" data-aos>
+          <div class="position-icon">
+            <i class="fas fa-tools"></i>
+          </div>
+          <h3>Anggota Bengkel TKJ</h3>
+          <p>Berkontribusi dalam kegiatan bengkel Teknik Komputer dan Jaringan, mendukung infrastruktur IT sekolah.</p>
+          <span class="position-org">Bengkel TKJ – Yadika 13</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section id="achievements" class="section section-dark">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Achievements</span>
+        <h2 class="section-title">Awards & Recognition</h2>
+        <p class="section-subtitle">Memenangkan lebih dari 5 lomba dari tingkat kabupaten hingga nasional</p>
+      </div>
+      <div class="achievements-wrapper">
+        <div class="trophy-display">
+          <div class="trophy-icon">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <div class="trophy-count">5+</div>
+          <div class="trophy-label">Total Penghargaan</div>
+          <div class="trophy-levels">
+            <div class="level-badge">
+              <i class="fas fa-map-marker-alt"></i> Kabupaten
+            </div>
+            <div class="level-arrow"><i class="fas fa-arrow-right"></i></div>
+            <div class="level-badge">
+              <i class="fas fa-city"></i> Provinsi
+            </div>
+            <div class="level-arrow"><i class="fas fa-arrow-right"></i></div>
+            <div class="level-badge highlight">
+              <i class="fas fa-flag"></i> Nasional
+            </div>
+          </div>
+        </div>
+        <div class="achievements-list">
+          <div class="achievement-item" data-aos>
+            <div class="ach-icon"><i class="fas fa-medal"></i></div>
+            <div class="ach-content">
+              <h4>Juara Lomba Tingkat Kabupaten</h4>
+              <p>Meraih posisi juara dalam kompetisi tingkat kabupaten, membuktikan kemampuan di level regional.</p>
+              <span class="ach-level level-kab">Kabupaten</span>
+            </div>
+          </div>
+          <div class="achievement-item" data-aos>
+            <div class="ach-icon"><i class="fas fa-award"></i></div>
+            <div class="ach-content">
+              <h4>Juara Lomba Tingkat Kabupaten</h4>
+              <p>Konsisten berprestasi di tingkat kabupaten dengan meraih penghargaan di kompetisi berbeda.</p>
+              <span class="ach-level level-kab">Kabupaten</span>
+            </div>
+          </div>
+          <div class="achievement-item" data-aos>
+            <div class="ach-icon"><i class="fas fa-star"></i></div>
+            <div class="ach-content">
+              <h4>Juara Lomba Tingkat Kabupaten</h4>
+              <p>Mempertahankan prestasi dengan kemenangan ketiga di tingkat kabupaten.</p>
+              <span class="ach-level level-kab">Kabupaten</span>
+            </div>
+          </div>
+          <div class="achievement-item" data-aos>
+            <div class="ach-icon"><i class="fas fa-trophy"></i></div>
+            <div class="ach-content">
+              <h4>Juara Lomba Tingkat Nasional</h4>
+              <p>Meraih prestasi bergengsi di tingkat nasional, bersaing dengan peserta terbaik dari seluruh Indonesia.</p>
+              <span class="ach-level level-nas">Nasional</span>
+            </div>
+          </div>
+          <div class="achievement-item" data-aos>
+            <div class="ach-icon"><i class="fas fa-crown"></i></div>
+            <div class="ach-content">
+              <h4>Juara Lomba Tingkat Nasional</h4>
+              <p>Kembali membuktikan diri di kompetisi nasional dengan meraih penghargaan bergengsi.</p>
+              <span class="ach-level level-nas">Nasional</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Skills</span>
+        <h2 class="section-title">What I Bring</h2>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skills-col">
+          <div class="skills-category-header">
+            <i class="fas fa-brain"></i>
+            <h3>Soft Skills</h3>
+          </div>
+          <div class="soft-skills">
+            <div class="soft-skill-item" data-aos>
+              <div class="ss-icon"><i class="fas fa-sync-alt"></i></div>
+              <div class="ss-content">
+                <h4>Adaptasi</h4>
+                <p>Mampu menyesuaikan diri dengan cepat di berbagai lingkungan dan situasi baru.</p>
+              </div>
+            </div>
+            <div class="soft-skill-item" data-aos>
+              <div class="ss-icon"><i class="fas fa-handshake"></i></div>
+              <div class="ss-content">
+                <h4>Mudah Bergaul</h4>
+                <p>Memiliki kemampuan interpersonal yang baik dan mudah membangun relasi.</p>
+              </div>
+            </div>
+            <div class="soft-skill-item" data-aos>
+              <div class="ss-icon"><i class="fas fa-users"></i></div>
+              <div class="ss-content">
+                <h4>Kerja Tim</h4>
+                <p>Kolaborator yang efektif, mampu berkontribusi positif dalam tim.</p>
+              </div>
+            </div>
+            <div class="soft-skill-item" data-aos>
+              <div class="ss-icon"><i class="fas fa-chess-king"></i></div>
+              <div class="ss-content">
+                <h4>Leadership</h4>
+                <p>Berpengalaman memimpin tim dan organisasi dengan komunikasi yang efektif.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-col">
+          <div class="skills-category-header">
+            <i class="fas fa-cog"></i>
+            <h3>Hard Skills</h3>
+          </div>
+          <div class="hard-skills">
+            <div class="hard-skill" data-aos>
+              <div class="hs-header">
+                <i class="fas fa-paint-brush"></i>
+                <span>Canva</span>
+              </div>
+              <p>Desain grafis untuk konten sosial media, poster, dan materi presentasi.</p>
+            </div>
+            <div class="hard-skill" data-aos>
+              <div class="hs-header">
+                <i class="fas fa-film"></i>
+                <span>Alight Motion</span>
+              </div>
+              <p>Editing video profesional dengan efek motion graphics dan animasi.</p>
+            </div>
+            <div class="hard-skill" data-aos>
+              <div class="hs-header">
+                <i class="fas fa-code"></i>
+                <span>VS Code</span>
+              </div>
+              <p>Pengembangan aplikasi dan koding dengan editor VS Code.</p>
+            </div>
+            <div class="hard-skill" data-aos>
+              <div class="hs-header">
+                <i class="fas fa-rocket"></i>
+                <span>Antigravity</span>
+              </div>
+              <p>Memanfaatkan Antigravity AI untuk productivity dan pengembangan proyek.</p>
+            </div>
+            <div class="hard-skill" data-aos>
+              <div class="hs-header">
+                <i class="fas fa-scissors"></i>
+                <span>CapCut</span>
+              </div>
+              <p>Video editing untuk konten kreatif digital dan media sosial.</p>
+            </div>
+            <div class="hard-skill" data-aos>
+              <div class="hs-header">
+                <i class="fas fa-microchip"></i>
+                <span>IoT</span>
+              </div>
+              <p>Implementasi Internet of Things dalam proyek STEM dan robotika.</p>
+            </div>
+            <div class="hard-skill" data-aos>
+              <div class="hs-header">
+                <i class="fas fa-comment-dots"></i>
+                <span>Prompting</span>
+              </div>
+              <p>Keahlian dalam prompt engineering untuk memaksimalkan AI tools.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section-dark">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Contact</span>
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="section-subtitle">Terbuka untuk kolaborasi, project, dan diskusi menarik!</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-graduation-cap"></i></div>
+            <div>
+              <h4>School</h4>
+              <p>SMK/SMA Yadika 13</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <h4>Location</h4>
+              <p>Indonesia</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-briefcase"></i></div>
+            <div>
+              <h4>Open For</h4>
+              <p>Collaboration · Projects · Discussions</p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-cta">
+          <div class="cta-card">
+            <h3>Ready to collaborate?</h3>
+            <p>Saya selalu terbuka untuk berdiskusi tentang proyek teknologi, kegiatan kreatif, dan peluang baru. Mari kita wujudkan ide bersama!</p>
+            <div class="social-links">
+              <a href="#" class="social-btn" title="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="#" class="social-btn" title="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" class="social-btn" title="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </div>
+            <p class="contact-note">Update social media links sesuai akun kamu!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">RMJ<span class="dot">.</span></div>
+        <p>© 2024 Rangga Mayridho Jaman. All rights reserved.</p>
+        <p class="footer-quote">"Belajar tanpa batas, berkontribusi tanpa henti."</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
